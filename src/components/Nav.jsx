@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className='sticky-nav'>
         <ul>
             <li>About Me</li>
             <li>Skills</li>
