@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <main>
         <div>
-          <h1>Hi there 👋,</h1>
+          <h1>Hey there 👋,</h1>
           <h1>I'm Matthew</h1>
           <h1>Full-Stack Developer</h1>
           <p>Specializing in Backend and API Development. I work with: Javascript, HTML, CSS, GraphQL, REST APIs and Databases. </p>

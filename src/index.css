@@ -12,13 +12,14 @@ main{
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0 80px;
+    background-color: #fff;
 }
 nav ul{
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 5vw;
 }
 nav ul li{
     font-size: 1.3rem;
@@ -27,6 +28,10 @@ nav ul li{
 }
 .resume-nav{
     color: #9d5c63
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
 }
 
 .header{
@@ -60,20 +65,20 @@ nav ul li{
     padding: 10px 20px;
 }
 .hire{
-    background-color: #fff;
+    background-color: #BFD7EA;
     border: 2px solid black;
 }
 .hire:hover{
-    background-color: black;
-    color:#fff;
+    background-color: #B0D3F3;
+    color: #fff;
 }
 .portfolio{
-    background-color: black;
+    background-color: #9d5c63;
     color: white;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 .portfolio:hover{
-    background-color: white;
+    background-color: #A0464F;
     color:black;
     border: 2px solid black;
 }
