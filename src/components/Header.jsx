@@ -1,6 +1,5 @@
 import React from "react";
 
-import Wave from "../assets/waving-emoji.png";
 import Headshot from "../assets/linkedin.jpg";
 
 const Header = () => {

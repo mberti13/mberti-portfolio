@@ -10,6 +10,11 @@ const App = () => {
         <div>
             <Nav />
             <Header />
+            <div className="container">
+                <div className="lines">
+                    <div className="circle"></div>
+                </div>
+            </div>
         </div>
     )
 }

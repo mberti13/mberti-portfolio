@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
         <ul>
             <li>About Me</li>
-            <li>Skills</li>
+            <li className='resume-nav'>Resume</li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>
