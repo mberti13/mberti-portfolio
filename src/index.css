@@ -218,6 +218,12 @@ figure{
 .cubespinner .face6{
     transform: rotateX(-90deg) translateZ(50px);
 }
+Link{
+    color: black;
+}
+Link:visited{
+    color: black;
+}
 @keyframes spincube{
     from, 
     to{
