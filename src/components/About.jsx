@@ -23,7 +23,7 @@ function About() {
           apps, websites and programs that can truly make a difference. Scroll
           down for some of my recent projects and my contact info!
         </p>
-        <button className="cta portfolio-about">VIEW MY WORK</button>
+        <button className="cta portfolio">VIEW MY WORK</button>
       </div>
     <div className="stage-cube-cont">
         <div className="cubespinner">
