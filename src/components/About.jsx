@@ -1,10 +1,13 @@
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBootstrap, faHtml5, faCss3Alt, faReact, faJsSquare, faGitAlt} from '@fortawesome/free-brands-svg-icons'
+
 function About() {
   return (
     <div className="about-page">
-      <div className="about-content">
-        <h1>About Me:</h1>
+      <div className="about-text">
+        <h1 className="about-heading">About Me:</h1>
         <p>
           I am a Fullstack Web Developer with a B.B.A. in Marketing from Texas
           Tech University, with experience in Sales, Marketing, and Management.
@@ -17,7 +20,30 @@ function About() {
           down for some of my recent projects and my contact info!
         </p>
       </div>
-      
+    <div className="stage-cube-cont">
+        <div className="cubespinner">
+            <div className="face1">
+                <FontAwesomeIcon icon={faBootstrap} color="#DD0031"/>
+            </div>
+            <div className="face2">
+                <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
+            </div>
+            <div className="face3">
+                <FontAwesomeIcon icon={faCss3Alt} color="#28A4d9"/>
+            </div>
+            <div className="face4">
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
+            </div>
+            <div className="face5">
+                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>
+            </div>
+            <div className="face6">
+                <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
+            </div>
+        </div>
+    </div>
+    <br></br>
+
     </div>
   );
 }

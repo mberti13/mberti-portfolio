@@ -21,6 +21,11 @@ const Header = () => {
         <img src={Headshot} alt="Matthew Berti" className="headshot-img" width={350}/>
         <div className="img-bg"></div>
       </figure>
+      <div className="container-border">
+                <div className="lines">
+                    <div className="circle"></div>
+                </div>
+            </div>
     </div>
   );
 };

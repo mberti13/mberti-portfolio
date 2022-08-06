@@ -4,8 +4,11 @@ const Nav = () => {
   return (
     <nav className='sticky-nav'>
         <ul>
-            <li>About Me</li>
-            <li className='resume-nav'>Resume</li>
+            <li className='nav-container'>About Me</li>
+            <li className='resume-nav nav-list-item'
+            href='/'
+            
+            >Resume</li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>

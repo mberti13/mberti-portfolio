@@ -17,11 +17,6 @@ const App = () => {
                 <Route path="/" element={<Header />}></Route>
                 <Route path="/about" element={<About />}></Route>
             </Routes>
-            <div className="container-border">
-                <div className="lines">
-                    <div className="circle"></div>
-                </div>
-            </div>
         </div>
         </Router>
     )

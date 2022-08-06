@@ -150,7 +150,94 @@ figure{
 }
 .about-page{
     display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
 
+}
+.about-heading{
+    font-weight: 700;
+    text-align: center;
+}
+.about-page p{
+    color: rgb(111, 111, 111);
+    margin: 20px;
+}
+.stage-cube-cont{
+    width: 50%;
+    height: 100%;
+    top: 45%;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 25%;
+    overflow: hidden;
+}
+.cubespinner{
+    /* animation styling for skill cube */
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px)
+}
+.cubespinner div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px lightyellow;
+}
+/* animation 3d effect for sube faces in about section */
+.cubespinner .face1{
+    transform: translateZ(100px);
+}
+.cubespinner .face2{
+    transform: rotateY(90deg) translateZ(100px);
+}
+.cubespinner .face3{
+    transform:  rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+.cubespinner .face4{
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face5{
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face6{
+    transform: rotateX(-90deg) translateZ(100px);
+}
+@keyframes spincube{
+    from, 
+    to{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16%{
+        transform: rotateY(-90deg);
+    }
+    33%{
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    50%{
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66%{
+        transform: rotateY(-270deg) rotateZ(90deg);
+    }
+    83% {
+        transform: rotateX(90deg);
+    }
 }
 
 @media screen and (min-width: 800px){
@@ -220,7 +307,43 @@ figure{
     }
     .about-page{
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
+    }
+    .about-text{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .stage-cube-cont{
+        width: 50%;
+        height: 100%;
+        top: 0;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+    }
+    .cubespinner{
+        /* animation styling for skill cube */
+        animation-name: spincube;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 12s;
+        transform-style: preserve-3d;
+        transform-origin: 100px 100px 0;
+        margin-left: calc(50% - 100px);
+    }
+    .cubespinner div{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background-color: rgba(255,255,255, 0.5);
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px lightyellow;
     }
 }
