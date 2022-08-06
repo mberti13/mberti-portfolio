@@ -11,14 +11,19 @@ function About() {
         <p>
           I am a Fullstack Web Developer with a B.B.A. in Marketing from Texas
           Tech University, with experience in Sales, Marketing, and Management.
+          </p>
+          <p>
           I am looking to develop projects, on both the front and back-end for
           various utilities. Including, but not limited to: UI/UX Design,
-          Blockchain Development and Software Development. I am 22 years old
+          Blockchain Development and Software Development.
+          </p>
+          <p> I am 22 years old
           currently living in St. Louis, MO, with previous experience in the
           Business/Marketing/Management Industries, as well as MERN Stack Development. My overall goal is to build
           apps, websites and programs that can truly make a difference. Scroll
           down for some of my recent projects and my contact info!
         </p>
+        <button className="cta portfolio-about">VIEW MY WORK</button>
       </div>
     <div className="stage-cube-cont">
         <div className="cubespinner">
@@ -42,8 +47,6 @@ function About() {
             </div>
         </div>
     </div>
-    <br></br>
-
     </div>
   );
 }

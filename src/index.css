@@ -170,11 +170,11 @@ figure{
 .stage-cube-cont{
     width: 50%;
     height: 100%;
-    top: 45%;
+    top: 60%;
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
-    right: 25%;
+    right: 14%;
     overflow: hidden;
 }
 .cubespinner{
@@ -184,13 +184,13 @@ figure{
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
+    transform-origin: 50px 50px 0;
     margin-left: calc(50% - 100px)
 }
 .cubespinner div{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #ccc;
     background-color: rgba(255,255,255, 0.5);
     font-size: 100px;
@@ -201,22 +201,22 @@ figure{
 }
 /* animation 3d effect for sube faces in about section */
 .cubespinner .face1{
-    transform: translateZ(100px);
+    transform: translateZ(50px);
 }
 .cubespinner .face2{
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(50px);
 }
 .cubespinner .face3{
-    transform:  rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform:  rotateY(90deg) rotateX(90deg) translateZ(50px);
 }
 .cubespinner .face4{
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
 }
 .cubespinner .face5{
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(50px);
 }
 .cubespinner .face6{
-    transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(50px);
 }
 @keyframes spincube{
     from, 
@@ -312,7 +312,8 @@ figure{
     .about-text{
     display: flex;
     flex-direction: column;
-    
+    width: 60%;
+    justify-content: space-around;
     }
     .stage-cube-cont{
         width: 50%;
@@ -346,4 +347,23 @@ figure{
         align-items: center;
         box-shadow: 0 0 20px lightyellow;
     }
+    /* animation 3d effect for sube faces in about section */
+.cubespinner .face1{
+    transform: translateZ(100px);
+}
+.cubespinner .face2{
+    transform: rotateY(90deg) translateZ(100px);
+}
+.cubespinner .face3{
+    transform:  rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+.cubespinner .face4{
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face5{
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+}
+.cubespinner .face6{
+    transform: rotateX(-90deg) translateZ(100px);
+}
 }
