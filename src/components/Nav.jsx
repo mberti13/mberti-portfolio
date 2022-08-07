@@ -10,7 +10,7 @@ const Nav = () => {
             <li><Link to={"about"}>About Me</Link></li>
             <li className='resume-link'>Resume</li>
             <li>Projects</li>
-            <li>Contact</li>
+            <li><Link to={"/contact"}>Contact</Link></li>
         </ul>
     </nav>
   )
