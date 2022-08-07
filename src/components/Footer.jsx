@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <footer>
         <div className="footer-icons">
-            <a className="icon"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
-            <a className="icon"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
+            <a className="icon fa-2x"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
+            <a className="icon fa-2x"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
         </div>
     </footer>
   )

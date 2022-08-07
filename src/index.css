@@ -508,4 +508,8 @@ footer{
     bottom: 0;
     height: 50px;
 }
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+}
 }
