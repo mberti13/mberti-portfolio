@@ -378,9 +378,11 @@ Link:visited{
 
 /* contact section styling */
 .contact-page{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'League Spartan', sans-serif;
 }
 .contact-form{
     display: flex;
@@ -389,6 +391,8 @@ Link:visited{
     width: 90%;
     background-color: #9d5c63;
     font-size: 16px;
+    margin-top: 20px;
+    border-radius: 45px;
 }
 .contact-form input{
     width: 85%;
@@ -419,10 +423,12 @@ Link:visited{
 }
 input[type='submit']{
     margin-top: 2rem;
+    margin-bottom: 1rem;
     cursor: pointer;
     background-color: #BFD7EA;
     font-weight: 700;
     font-size: 14px;
     border: none;
+    width: 50%;
 }
 }

@@ -10,14 +10,18 @@ const Contact = () => {
     emailjs
     //TODO: add variable info
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_sbnfqdp",
+        "template_sl4o3nj",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "t4q7TRav8SG696sLg"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Message sent.")
+          console.log("message sent!");  
+          //resets form after successful submission
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
