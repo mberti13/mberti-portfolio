@@ -224,6 +224,69 @@ Link{
 Link:visited{
     color: black;
 }
+
+/* contact section styling */
+.contact-page{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contact-form input{
+    width: 85%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220,220,220);
+}
+.contact-form input:focus{
+    border: 2px solid rgba(0,206,158, 1);
+}
+.contact-form textarea{
+    max-width: 100%;
+    min-width: 85%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220,220,220);
+}
+.contact-form textarea:focus{
+    border: 2px solid rgba(0,206,158, 1);
+}
+.contact-form label{
+    margin-top: 1rem;
+}
+input[type='submit']{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: #BFD7EA;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #9d5c63;
+    border: 1px solid black;
+    width: 30%;
+}
+input[type='submit']:hover{
+    background-color: #A0464F;
+    color: #fff;
+}
+
 @keyframes spincube{
     from, 
     to{
@@ -388,11 +451,12 @@ Link:visited{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    background-color: #9d5c63;
+    width: 70%;
+    background-color: black;
+    color: white;
     font-size: 16px;
     margin-top: 20px;
-    border-radius: 45px;
+    border-radius: 5px;
 }
 .contact-form input{
     width: 85%;
@@ -428,7 +492,12 @@ input[type='submit']{
     background-color: #BFD7EA;
     font-weight: 700;
     font-size: 14px;
-    border: none;
-    width: 50%;
+    background-color: #9d5c63;
+    border: 1px solid black;
+    width: 30%;
+}
+input[type='submit']:hover{
+    background-color: #A0464F;
+    color: #fff;
 }
 }
