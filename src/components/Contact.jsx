@@ -8,7 +8,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-    //TODO: add variable info
+    // add variable info
       .sendForm(
         "service_sbnfqdp",
         "template_sl4o3nj",
