@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBootstrap, faHtml5, faCss3Alt, faReact, faJsSquare, faGitAlt} from '@fortawesome/free-brands-svg-icons'
+import { faNode, faHtml5, faCss3Alt, faReact, faJsSquare, faGitAlt} from '@fortawesome/free-brands-svg-icons'
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
     <div className="stage-cube-cont">
         <div className="cubespinner">
             <div className="face1">
-                <FontAwesomeIcon icon={faBootstrap} color="#DD0031"/>
+                <FontAwesomeIcon icon={faNode} color="#DD0031"/>
             </div>
             <div className="face2">
                 <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
