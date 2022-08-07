@@ -10,6 +10,13 @@ main{
     flex-direction: column;
     justify-content: space-between;
 }
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #2F2F2C;
+}
 
 nav{
     display: flex;
@@ -26,6 +33,9 @@ nav ul li{
     font-size: 1.1rem;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
+}
+.resume-link, .resume-link:visited{
+    color: #9d5c63;
 }
 .resume-nav{
     color: #9d5c63
