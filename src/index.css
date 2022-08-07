@@ -22,7 +22,7 @@ nav ul{
     gap: 5vw;
 }
 nav ul li{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
 }
@@ -250,6 +250,9 @@ Link:visited{
     nav{
         justify-content: center;
     }
+    nav ul li{
+        font-size: 1.3rem;
+    }
     .header{
         flex-direction: row;
         margin: 80px;
@@ -371,5 +374,55 @@ Link:visited{
 }
 .cubespinner .face6{
     transform: rotateX(-90deg) translateZ(100px);
+}
+
+/* contact section styling */
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #9d5c63;
+    font-size: 16px;
+}
+.contact-form input{
+    width: 85%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220,220,220);
+}
+.contact-form input:focus{
+    border: 2px solid rgba(0,206,158, 1);
+}
+.contact-form textarea{
+    max-width: 100%;
+    min-width: 85%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220,220,220);
+}
+.contact-form textarea:focus{
+    border: 2px solid rgba(0,206,158, 1);
+}
+.contact-form label{
+    margin-top: 1rem;
+}
+input[type='submit']{
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: #BFD7EA;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
 }
 }
