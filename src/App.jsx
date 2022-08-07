@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Contact from './components/Contact';
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 
   
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/" element={<Header />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/projects" element={<Projects />}></Route>
             </Routes>
             <Footer></Footer>
         </div>
