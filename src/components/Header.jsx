@@ -1,7 +1,7 @@
 import React from "react";
 
 import Headshot from "../assets/linkedin.jpg";
-import About from "./About";
+
 
 const Header = () => {
   return (
