@@ -1,6 +1,6 @@
 import React from "react";
 
-import Headshot from "../assets/linkedin.jpg";
+import Headshot from "../assets/images/linkedin.jpg";
 
 
 const Header = () => {
