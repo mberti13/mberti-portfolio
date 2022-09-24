@@ -75,6 +75,7 @@ nav ul li{
 .cta{
     font-weight: bold;
     padding: 10px 20px;
+    margin: 20px;
 }
 .hire{
     background-color: #BFD7EA;
@@ -351,6 +352,8 @@ footer div a:hover{
     .cta{
         padding: 20px 30px;
         font-size: 1.2rem;
+        margin:50px;
+        width: 80%;
     }
     .buttons{
         margin: 0;
@@ -405,18 +408,22 @@ footer div a:hover{
     .about-page{
         display: flex;
         justify-content: space-between;
+        margin: 50px;
+        padding: 40px;
     }
     .about-text{
     display: flex;
     flex-direction: column;
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
     }
     .stage-cube-cont{
         width: 50%;
-        height: 75%;
+        height: 25%;
         top: 0;
-        padding-top: 18%;
+        padding-top: 13%;
         margin-left: 0;
         position: absolute;
         right: 0;
@@ -529,7 +536,7 @@ footer{
     position: absolute;
     background-color: #BFD7EA;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     height: 50px;
 }
 footer div{
