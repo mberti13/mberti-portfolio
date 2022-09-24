@@ -1,6 +1,6 @@
 export const SliderData = [
     {
-        image: "../assets/images/Crescendo.jpg",
+        image: "../assets/images/crescendo 2 (1).png",
         alt: "Crescendo, Full-stack project"
     },
     {
@@ -8,11 +8,11 @@ export const SliderData = [
         alt: "Donate, a MERN stack project for displaying charities worth donating to"
     },
     {
-        image: "../assets/images/password-generator-photo.jpg",
+        image: "../assets/images/password 2.png",
         alt: "A frontend designed and functional password generator"
     },
     {
-        image: "../assets/images/Screenshot 2022-03-27 224334.jpg",
+        image: "../assets/images/super hero 2.jpg",
         alt: "Super Hero Wiki, designed with Marvel API to provide results for user's searches"
     },
     {
