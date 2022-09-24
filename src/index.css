@@ -64,6 +64,7 @@ nav ul li{
 .cta{
     font-weight: bold;
     padding: 10px 20px;
+    margin: 15px;
 }
 .hire{
     background-color: #BFD7EA;
@@ -254,6 +255,7 @@ figure{
     .cta{
         padding: 20px 30px;
         font-size: 1.2rem;
+        margin: 30px;
     }
     .buttons{
         margin: 0;
@@ -308,12 +310,14 @@ figure{
     .about-page{
         display: flex;
         justify-content: space-between;
+        margin: 100px;
     }
     .about-text{
     display: flex;
     flex-direction: column;
     width: 60%;
     justify-content: space-around;
+    align-items: stretch;
     }
     .stage-cube-cont{
         width: 50%;
