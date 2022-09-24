@@ -250,7 +250,7 @@ Link:visited{
     flex-direction: column;
     align-items: center;
     width: 70%;
-    background-color: black;
+    background:-webkit-linear-gradient(left, #000000, #373737);
     color: white;
     font-size: 16px;
     margin-top: 20px;
@@ -474,6 +474,8 @@ footer div a:hover{
 /* contact section styling */
 .contact-page{
     margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
