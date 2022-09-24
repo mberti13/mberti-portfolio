@@ -19,4 +19,4 @@ export const SliderData = [
         image: '../assets/images/react-calculator.png',
         alt: "A calculator built using React and Javascript"
     }
-]
+];
