@@ -6,7 +6,7 @@ function Projects() {
    <>
     {SliderData.map((slide, index) =>{
       return(
-        <img src={slide.image} alt={slide.alt}></img>
+        <img src={slide.image} alt={slide.alt} /> 
       )
     })}
    </>
