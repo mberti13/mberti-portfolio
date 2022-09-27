@@ -31,7 +31,7 @@ function Projects({ slides }) {
       return(
         <div className={index === current ? 'slide-active' : "slide"} key={index} >
           {index === current && 
-          (<a href={slide.link}>
+          (<a target="_blank" href={slide.link}>
           <img src={slide.image} alt={slide.alt} className="image"/>
           </a>)}
           
