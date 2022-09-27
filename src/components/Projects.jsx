@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {SliderData} from './SliderData';
+import Modal from './modal';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 function Projects({ slides }) {
@@ -30,7 +31,9 @@ function Projects({ slides }) {
       return(
         <div className={index === current ? 'slide-active' : "slide"} key={index} >
           {index === current && 
-          (<img src={slide.image} alt={slide.alt} className="image"/> )}
+          (<a href={slide.link}>
+          <img src={slide.image} alt={slide.alt} className="image"/>
+          </a>)}
           
         </div>
         
