@@ -1,6 +1,7 @@
 {
   "name": "mberti-portfolio",
   "version": "0.1.0",
+  "homepage": "https://mberti13.github.io/mberti-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -20,7 +21,6 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://mberti13.github.io/mberti-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
