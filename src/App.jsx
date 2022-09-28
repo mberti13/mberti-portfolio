@@ -19,7 +19,7 @@ const App = () => {
         <div>
             <Nav />
             <Routes>
-                <Route path="/" element={<Header />}></Route>
+                <Route path="/mberti-portfolio" element={<Header />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>
                 <Route path="/projects" element={<Projects slides={SliderData} />}></Route>
