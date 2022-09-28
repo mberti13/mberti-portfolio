@@ -20,7 +20,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://mberti13.github.io/mberti-portfolio",
+  "homepage": "https://mberti13.github.io/mberti-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
