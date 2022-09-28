@@ -1,6 +1,7 @@
 import React from "react";
 
 import Headshot from "../assets/images/linkedin.jpg";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -14,8 +15,8 @@ const Header = () => {
           <p>Specializing in Backend and API Development. I work with: Javascript, HTML, CSS, GraphQL, REST APIs and Databases. </p>
         </div>
         <div className="buttons">
-            <button className="cta hire">HIRE ME</button>
-            <button className="cta portfolio">VIEW MY WORK</button>
+            <Link to={"/contact"}><button className="cta hire">HIRE ME</button></Link>
+            <Link to={"/projects"}><button className="cta portfolio">VIEW MY WORK</button></Link>
         </div>
       </main>
       <figure>
