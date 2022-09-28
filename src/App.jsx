@@ -19,10 +19,10 @@ const App = () => {
         <div>
             <Nav />
             <Routes>
-                <Route path="/mberti-portfolio" element={<Header />}></Route>
-                <Route path="/mberti-portfolio/about" element={<About />}></Route>
-                <Route path="/mberti-portfolio/contact" element={<Contact />}></Route>
-                <Route path="/mberti-portfolio/projects" element={<Projects slides={SliderData} />}></Route>
+                <Route path="/" element={<Header />}></Route>
+                <Route path="/about" element={<About />}></Route>
+                <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/projects" element={<Projects slides={SliderData} />}></Route>
                 {/* <Route path="/modal" element={<Modal />}></Route> */}
             </Routes>
             <Footer></Footer>
